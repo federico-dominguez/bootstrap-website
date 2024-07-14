@@ -47,7 +47,7 @@ I am Federico Dominguez, a web developer passionate about creating attractive an
 
 - HTML5
 - CSS3
-- Bootstrap 4
+- Bootstrap 5
 
 ### Objectives
 
