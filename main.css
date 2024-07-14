@@ -1,0 +1,96 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*** Section 1 ***/
+
+.section-1 {
+    background-color: #ffffff;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*** Section 2 ***/
+.section-2 {
+    background-color: gainsboro;
+    color: dimgray;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.article-p {
+    margin: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.section-2 button {
+    display: block;
+    margin: auto;
+}
+
+.imgCenter {
+    display: block;
+    margin: auto;
+    padding: 10%;
+}
+
+/*** Section 3 ***/
+.section-3 {
+    padding: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.btnCenter {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.modal-body {
+    display: block;
+}
+
+iframe {
+    height: 350px;
+    width: 100%;
+}
+
+/*** Footer ***/
+.footer-bg {
+    padding: 5rem;
+    background-image: linear-gradient(dimgray, black);
+}
+
+.fa {
+    color: aliceblue;
+    padding: 3px;
+}
+
+/*** Mobile responsive ***/
+@media (max-width: 576px) {
+    .carousel-inner {
+        height: 300px;
+    }
+}
